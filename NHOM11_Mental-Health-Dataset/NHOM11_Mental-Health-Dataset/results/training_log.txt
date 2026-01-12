@@ -1,0 +1,113 @@
+=== KẾT QUẢ HUẤN LUYỆN MODEL ===
+
+Decision Tree (Baseline)
+Accuracy : 0.7081
+ROC AUC  : 0.7549
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.74      0.66      0.70     26592
+           1       0.68      0.76      0.72     25674
+
+    accuracy                           0.71     52266
+   macro avg       0.71      0.71      0.71     52266
+weighted avg       0.71      0.71      0.71     52266
+
+
+Decision Tree (Tuned)
+Accuracy : 0.7722
+ROC AUC  : 0.8610
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.81      0.72      0.76     26592
+           1       0.74      0.83      0.78     25674
+
+    accuracy                           0.77     52266
+   macro avg       0.78      0.77      0.77     52266
+weighted avg       0.78      0.77      0.77     52266
+
+
+Random Forest (Baseline)
+Accuracy : 0.7346
+ROC AUC  : 0.7983
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.76      0.71      0.73     26592
+           1       0.71      0.76      0.74     25674
+
+    accuracy                           0.73     52266
+   macro avg       0.74      0.74      0.73     52266
+weighted avg       0.74      0.73      0.73     52266
+
+
+Random Forest (Tuned)
+Accuracy : 0.7391
+ROC AUC  : 0.8167
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.76      0.71      0.73     26592
+           1       0.72      0.77      0.74     25674
+
+    accuracy                           0.74     52266
+   macro avg       0.74      0.74      0.74     52266
+weighted avg       0.74      0.74      0.74     52266
+
+
+LightGBM (Baseline)
+Accuracy : 0.7756
+ROC AUC  : 0.8636
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.82      0.72      0.77     26592
+           1       0.74      0.83      0.78     25674
+
+    accuracy                           0.78     52266
+   macro avg       0.78      0.78      0.78     52266
+weighted avg       0.78      0.78      0.77     52266
+
+
+LightGBM (Tuned)
+Accuracy : 0.7760
+ROC AUC  : 0.8653
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.82      0.72      0.77     26592
+           1       0.74      0.84      0.79     25674
+
+    accuracy                           0.78     52266
+   macro avg       0.78      0.78      0.78     52266
+weighted avg       0.78      0.78      0.78     52266
+
+
+XGBoost (Baseline)
+Accuracy : 0.7733
+ROC AUC  : 0.8619
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.81      0.72      0.76     26592
+           1       0.74      0.83      0.78     25674
+
+    accuracy                           0.77     52266
+   macro avg       0.78      0.77      0.77     52266
+weighted avg       0.78      0.77      0.77     52266
+
+
+XGBoost (Tuned)
+Accuracy : 0.7711
+ROC AUC  : 0.8581
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.81      0.72      0.76     26592
+           1       0.74      0.82      0.78     25674
+
+    accuracy                           0.77     52266
+   macro avg       0.77      0.77      0.77     52266
+weighted avg       0.77      0.77      0.77     52266
+

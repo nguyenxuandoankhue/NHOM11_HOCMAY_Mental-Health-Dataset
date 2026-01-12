@@ -1,0 +1,10 @@
+#lệnh cài thư viện: pip install -r requirements.txt
+pandas
+numpy
+matplotlib
+seaborn
+scikit-learn
+joblib
+xgboost
+lightgbm
+streamlit
